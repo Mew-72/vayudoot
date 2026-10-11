@@ -1,0 +1,7 @@
+# Raspberry Pi OS: install opencv and picamera2 from apt (python3-opencv) and use a venv with --system-site-packages
+pymavlink
+shapely
+numpy
+flask
+ultralytics      # detector (pulls in torch; big download). Needed only if you want live detection
+ncnn             # fast CPU inference for the exported model on the Pi

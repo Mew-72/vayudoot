@@ -1,0 +1,24 @@
+{
+  "name": "SITL_test_field_around_default_SITL_home",
+  "boundary_latlon": [
+    [-35.363553, 149.164679],
+    [-35.363553, 149.165781],
+    [-35.362969, 149.165781],
+    [-35.362969, 149.164679]
+  ],
+  "home_latlon": [-35.363261, 149.165230],
+
+  "altitude_agl_m": 15.0,
+  "speed_mps": 3.0,
+  "sweep_angle_deg": null,
+  "fence_alt_max_m": 30.0,
+
+  "camera": {
+    "device": 0, "width": 1920, "height": 1080, "hfov_deg": 80.0,
+    "latency_s": 0.15, "gimbal": "stabilised_nadir", "image_top_yaw_offset_deg": 0.0
+  },
+  "overlap": {"side": 0.25, "forward": 0.35},
+  "margins": {"path_m": 6.0, "fence_m": 2.0},
+  "detector": {"weights": "yolov8n_ncnn_model", "conf": 0.30, "tile": 640, "tile_overlap": 0.2, "person_class": 0},
+  "safety": {"min_gps_sats": 6, "max_hdop": 2.0, "min_batt_pct": 50, "abort_batt_pct": 25, "max_mission_s": 600, "rtl_alt_m": 20.0}
+}
