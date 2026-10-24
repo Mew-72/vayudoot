@@ -48,3 +48,6 @@ session_*/
 *~
 .DS_Store
 Thumbs.db
+# Agent worktrees and task artifacts
+.worktrees/
+.agents/
